@@ -1,4 +1,4 @@
-# Topete
+# Topete 🦦
 
 #### Simple 2FA manager written in elixir.
 
@@ -26,14 +26,14 @@ First the website that uses 2FA needs to provide a secret, usually it's an URI e
 ##### Getting codes
 Topete can generate one time codes for a given secret:
 ```
-Existing secret
-      |
-      V
- .--------.
- | Topete | 
- '--------'
-      |
-      V
+  Existing secret
+        |
+        V
+   .--------.
+   | Topete | 
+   '--------'
+        |
+        V
 .---------------.
 | One time code | 
 '---------------'
@@ -44,17 +44,17 @@ Usually, authenticators just store the user's secrets and generates codes every 
 ```
 .---------------.
 | AUTHENTICATOR |
-| Web1: 123456  | 
-| Web2: 321654  | -> Updates codes every 30sec
-| Web2: 654123  |
+| Gogl: 123456  | 
+| Gthb: 321654  | -> Updates codes every 30sec
+| Pr0n: 654123  |
 '---------------'
 ```
 
 ## Two ways of interacting with Topete:
 
 #### API REST
-##### TO-DO
-Will encapsulate the CLI calls behind standard API REST methods `get`, `post`, `delete`.
+**TO-DO**
+*Will encapsulate the CLI calls behind standard API REST methods `get`, `post`, `delete`.*
 
 #### CLI
 `./topete [option] [args]`
